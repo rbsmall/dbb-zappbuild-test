@@ -20,7 +20,7 @@ jobs:
             # Project related vars
             MyRepo: git@github.com:${{ github.repository }}.git
             MyWorkDir: tmp/ghActions/ghAction-poc-workspace_run_${{ github.run_number }}
-            MyWorkSpace: dbb-zappbuild/samples
+            MyWorkSpace: dbb-zappbuild-test/samples
             MyAppl: MortgageApplication
             MyBranch: ${{ github.ref }}
 
